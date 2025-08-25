@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import FeaturedCollections from "./components/FeaturedCollections";
 import TrendingProducts from "./components/TrendingProducts";
 import BrandStory from "./components/BrandStory";
+import Testimonials from "./components/Testimonials";
+import Newsletter from "./components/Newsletter";
 
 export default function Home() {
   return (
@@ -10,10 +12,12 @@ export default function Home() {
       <FeaturedCollections />
       <TrendingProducts />
       <BrandStory />
+      <Testimonials />
+      <Newsletter />
 
-      {/* Next section */}
-      <section className="h-screen flex items-center justify-center bg-gray-100">
-        <h2 className="text-4xl font-semibold text-gray-800">Explore Our Collections</h2>
+      {/* Footer placeholder */}
+      <section className="h-48 flex items-center justify-center bg-gray-900">
+        <h2 className="text-white text-2xl font-semibold">Footer Section</h2>
       </section>
     </main>
   );
