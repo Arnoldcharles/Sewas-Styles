@@ -47,7 +47,7 @@ export default function Newsletter() {
       {/* Success Popup */}
       {showPopup && (
         <Popup
-          message="🎉 Subscription successful! Welcome to our Style Club."
+          message="🎉 Subscribed successfully! Welcome to Sewas-Styles Club."
           onClose={() => setShowPopup(false)}
         />
       )}

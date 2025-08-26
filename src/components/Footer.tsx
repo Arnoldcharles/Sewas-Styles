@@ -51,22 +51,22 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="hover:text-pink-500">
+              <a href="/about" className="hover:text-pink-500">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-pink-500">
-                Lookbook
+              <a href="/collections" className="hover:text-pink-500">
+                Collection
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-pink-500">
-                Blog
+              <a href="/shop" className="hover:text-pink-500">
+                Shop
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-pink-500">
+              <a href="/contact" className="hover:text-pink-500">
                 Contact
               </a>
             </li>
@@ -117,7 +117,7 @@ export default function Footer() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="w-full px-4 py-2 rounded-l-lg text-black focus:outline-none"
+              className="w-full px-4 py-2 rounded-l-lg text-white focus:outline-none"
             />
             <button
               onClick={handleSubscribe}
