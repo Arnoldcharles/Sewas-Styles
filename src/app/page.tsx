@@ -14,11 +14,6 @@ export default function Home() {
       <BrandStory />
       <Testimonials />
       <Newsletter />
-
-      {/* Footer placeholder */}
-      <section className="h-48 flex items-center justify-center bg-gray-900">
-        <h2 className="text-white text-2xl font-semibold">Footer Section</h2>
-      </section>
     </main>
   );
 }
