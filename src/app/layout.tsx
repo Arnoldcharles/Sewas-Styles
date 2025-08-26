@@ -1,19 +1,22 @@
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
 
-export const metadata = {
-  title: "Sewas Styles",
-  description: "Fashion design website",
+export const metadata: Metadata = {
+  title: "Sewas-Styles",
+  description: "A beautiful fashion design website",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body>
+      <body className="relative">
         <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <div>{children}</div>
       </body>
     </html>
   );
