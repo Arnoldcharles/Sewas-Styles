@@ -8,7 +8,7 @@ export default function AboutSection() {
         {/* Left Image */}
         <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="https://images.unsplash.com/photo-1520975922058-6c57e22ae616?auto=format&fit=crop&w=900&q=80"
+            src="/fashion-style.jpg"
             alt="Fashion style"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
           />
