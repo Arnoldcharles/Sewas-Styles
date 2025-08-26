@@ -22,7 +22,7 @@ export default function NotFound() {
         transition={{ delay: 0.3, duration: 0.6 }}
         className="text-3xl md:text-4xl font-bold mb-4"
       >
-        Oops! Page Not Found
+        Sewas Styles <br /> Oops! Page Not Found
       </motion.h2>
 
       <motion.p
